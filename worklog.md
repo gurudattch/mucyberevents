@@ -30,3 +30,32 @@ Stage Summary:
 - AI-generated images for hero, CTF, and logo
 - Working registration API with validation
 - Fully responsive and accessible design
+
+---
+Task ID: 2
+Agent: Main Agent
+Task: Make project Vercel-deployable
+
+Work Log:
+- Removed `output: "standalone"` from next.config.ts (Vercel handles this automatically)
+- Added `images.formats` config for optimized image delivery on Vercel
+- Enabled `reactStrictMode: true` for production best practices
+- Added `allowedDevOrigins` for dev environment
+- Fixed package.json: changed build script from standalone-specific to `prisma generate && next build`
+- Added `postinstall: "prisma generate"` script for Vercel build pipeline
+- Cleaned dev/start scripts from sandbox-specific `tee` logging and bun standalone references
+- Added `Registration` model to Prisma schema with `email` as unique field
+- Replaced in-memory registration API with Prisma-backed persistent storage
+- Updated `db.ts` to disable query logging in production
+- Fixed HeroSection.tsx import order (useState/useEffect was imported after usage)
+- Excluded `examples/`, `mini-services/`, `skills/` from tsconfig.json to prevent build errors
+- Added `.env.example` with DATABASE_URL instructions for local and Vercel Postgres
+- Verified clean `next build` succeeds with no TypeScript or compilation errors
+- Lint passes clean
+
+Stage Summary:
+- Project builds successfully with `next build` (production-ready)
+- All Vercel-incompatible configurations removed
+- Registration API uses Prisma for persistent database storage
+- SQLite for local dev, easy swap to Vercel Postgres for production
+- TypeScript strict mode enabled, no build errors

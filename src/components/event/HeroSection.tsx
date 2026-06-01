@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ChevronDown, Calendar, MapPin, Users, Zap, Trophy, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -53,8 +54,6 @@ function CountdownTimer() {
     </div>
   );
 }
-
-import { useState, useEffect } from "react";
 
 export function HeroSection() {
   const iconMap: Record<string, React.ElementType> = {

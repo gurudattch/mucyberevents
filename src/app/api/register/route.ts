@@ -1,15 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-
-// Simple in-memory storage for registrations (in production, use a database)
-const registrations: Array<{
-  id: string;
-  name: string;
-  email: string;
-  phone: string;
-  college: string;
-  event: string;
-  registeredAt: string;
-}> = [];
+import { db } from "@/lib/db";
 
 export async function POST(request: NextRequest) {
   try {
@@ -34,7 +24,9 @@ export async function POST(request: NextRequest) {
     }
 
     // Check for duplicate email
-    const existingRegistration = registrations.find((r) => r.email === email);
+    const existingRegistration = await db.registration.findUnique({
+      where: { email },
+    });
     if (existingRegistration) {
       return NextResponse.json(
         { error: "This email is already registered" },
@@ -43,17 +35,15 @@ export async function POST(request: NextRequest) {
     }
 
     // Create registration
-    const registration = {
-      id: `CSW-${Date.now()}-${Math.random().toString(36).substring(2, 7).toUpperCase()}`,
-      name,
-      email,
-      phone,
-      college,
-      event: event || "general",
-      registeredAt: new Date().toISOString(),
-    };
-
-    registrations.push(registration);
+    const registration = await db.registration.create({
+      data: {
+        name,
+        email,
+        phone,
+        college,
+        eventType: event || "general",
+      },
+    });
 
     return NextResponse.json(
       {
@@ -63,7 +53,8 @@ export async function POST(request: NextRequest) {
       },
       { status: 201 }
     );
-  } catch {
+  } catch (error) {
+    console.error("Registration error:", error);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
@@ -72,13 +63,26 @@ export async function POST(request: NextRequest) {
 }
 
 export async function GET() {
-  return NextResponse.json({
-    total: registrations.length,
-    registrations: registrations.map(({ id, name, event, registeredAt }) => ({
-      id,
-      name,
-      event,
-      registeredAt,
-    })),
-  });
+  try {
+    const registrations = await db.registration.findMany({
+      select: {
+        id: true,
+        name: true,
+        eventType: true,
+        registeredAt: true,
+      },
+      orderBy: { registeredAt: "desc" },
+    });
+
+    return NextResponse.json({
+      total: registrations.length,
+      registrations,
+    });
+  } catch (error) {
+    console.error("Fetch registrations error:", error);
+    return NextResponse.json(
+      { error: "Internal server error" },
+      { status: 500 }
+    );
+  }
 }
