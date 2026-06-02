@@ -476,7 +476,7 @@ export const sponsors: Sponsor[] = [
     tier: "gold",
     description: "",
     website: "#",
-  }
+  },
   {
     id: "2",
     name: "CyberShield Corp",
@@ -490,7 +490,7 @@ export const sponsors: Sponsor[] = [
     tier: "gold",
     description: "Penetration testing & red teaming services",
     website: "silver",
-  },
+  }
   // {
   //   id: "4",
   //   name: "SecureNet Solutions",
