@@ -89,9 +89,15 @@ export function HeroSection() {
           className="flex justify-center mb-6"
         >
           <div className="relative">
-            <Shield className="w-16 h-16 sm:w-20 sm:h-20 text-[#00ff41]" />
-            <div className="absolute inset-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-[#00ff41]/20 animate-pulse" />
-            <div className="absolute inset-[-8px] w-[calc(100%+16px)] h-[calc(100%+16px)] rounded-full border border-[#00ff41]/10" />
+              <img
+          src="https://meu.edu.in/wp-content/uploads/2026/02/cropped-MU-logo-final-white.png"
+          alt="Cyber Security Week 2026 Background"
+          className="w-16 h-16 sm:w-20 sm:h-20"
+        />
+            {/* <Shield className="w-16 h-16 sm:w-20 sm:h-20 text-[#00ff41]" /> */}
+            {/* <div className="absolute inset-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-[#00ff41]/20 animate-pulse" /> */}
+            {/* <div className="absolute inset-[-8px] w-[calc(100%+16px)] h-[calc(100%+16px)] rounded-full border border-[#00ff41]/10" /> */}
+            
           </div>
         </motion.div>
 
