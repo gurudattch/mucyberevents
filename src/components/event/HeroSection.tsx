@@ -92,7 +92,7 @@ export function HeroSection() {
               <img
           src="https://meu.edu.in/wp-content/uploads/2026/02/cropped-MU-logo-final-white.png"
           alt="Cyber Security Week 2026 Background"
-          className="w-16 h-16 sm:w-20 sm:h-20"
+          className="w-21 h-21 sm:w-25 sm:h-25"
         />
             {/* <Shield className="w-16 h-16 sm:w-20 sm:h-20 text-[#00ff41]" /> */}
             {/* <div className="absolute inset-0 w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-[#00ff41]/20 animate-pulse" /> */}
