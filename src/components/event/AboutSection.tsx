@@ -26,7 +26,7 @@ const features = [
     description: "Panel discussions and fireside chats on career paths, certifications, and opportunities in cybersecurity.",
   },
 {
-  icon: Venus,
+  icon: User,
   title: "Women in Cybersecurity",
   description: "Empowering women to lead, innovate, and thrive in the cybersecurity industry through learning, mentorship, and community.",
 },
