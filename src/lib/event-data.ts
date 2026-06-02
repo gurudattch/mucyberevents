@@ -156,7 +156,6 @@ export interface EventItem {
 }
 
 export const events: EventItem[] = [
-[
   {
     "id": "day1-inauguration",
     "title": "Inauguration Ceremony",
