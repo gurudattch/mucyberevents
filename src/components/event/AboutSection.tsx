@@ -69,7 +69,7 @@ export function AboutSection() {
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             <span className="text-white">What is </span>
-            <span className="text-[#00ff41] glow-green-text font-mono">CSW 2025</span>
+            <span className="text-[#00ff41] glow-green-text font-mono">CSW 2026</span>
             <span className="text-white">?</span>
           </h2>
           <p className="text-[#94a3b8] max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
@@ -112,7 +112,7 @@ export function AboutSection() {
             Hosted by <span className="text-[#00d4ff] font-mono">Mandsaur University</span>
           </h3>
           <p className="text-[#94a3b8] text-sm max-w-2xl mx-auto leading-relaxed">
-            Mandsaur University is a premier educational institution in Mandsaur, Madhya Pradesh, committed to academic excellence and innovation. The Department of Computer Science & IT proudly presents Cyber Security Week 2025 — an initiative to foster cybersecurity awareness and skill development among students and professionals.
+            Mandsaur University is a premier educational institution in Mandsaur, Madhya Pradesh, committed to academic excellence and innovation. The Department of Computer Science & IT proudly presents Cyber Security Week 2026 — an initiative to foster cybersecurity awareness and skill development among students and professionals.
           </p>
         </motion.div>
       </div>
