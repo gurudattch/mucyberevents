@@ -5,11 +5,11 @@ import { ShieldCheck, Users, Lightbulb, Target, BookOpen, Cpu } from "lucide-rea
 import { eventInfo } from "@/lib/event-data";
 
 const features = [
-  {
-    icon: ShieldCheck,
-    title: "Hands-on Workshops",
-    description: "Practical sessions on ethical hacking, web security, forensics, and more with real-world tools and scenarios.",
-  },
+  // {
+  //   icon: ShieldCheck,
+  //   title: "Hands-on Workshops",
+  //   description: "Practical sessions on ethical hacking, web security, forensics, and more with real-world tools and scenarios.",
+  // },
   {
     icon: Target,
     title: "CTF Competition",
@@ -30,11 +30,11 @@ const features = [
     title: "Knowledge Sharing",
     description: "Open forums, write-up presentations, and community networking with fellow cybersecurity enthusiasts.",
   },
-  {
-    icon: Cpu,
-    title: "Latest Technologies",
-    description: "Explore AI in security, cloud security, zero-trust architecture, and cutting-edge threat intelligence.",
-  },
+  // {
+  //   icon: Cpu,
+  //   title: "Latest Technologies",
+  //   description: "Explore AI in security, cloud security, zero-trust architecture, and cutting-edge threat intelligence.",
+  // },
 ];
 
 const containerVariants = {
