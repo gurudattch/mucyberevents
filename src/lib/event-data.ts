@@ -473,24 +473,24 @@ export const sponsors: Sponsor[] = [
   {
     id: "1",
     name: "To Be Announced",
-    tier: "",
+    tier: "gold",
     description: "",
     website: "#",
   }
-  // {
-  //   id: "2",
-  //   name: "CyberShield Corp",
-  //   tier: "platinum",
-  //   description: "Enterprise security & compliance",
-  //   website: "#",
-  // },
-  // {
-  //   id: "3",
-  //   name: "HackDefend Labs",
-  //   tier: "gold",
-  //   description: "Penetration testing & red teaming services",
-  //   website: "#",
-  // },
+  {
+    id: "2",
+    name: "CyberShield Corp",
+    tier: "platinum",
+    description: "Enterprise security & compliance",
+    website: "#",
+  },
+  {
+    id: "3",
+    name: "HackDefend Labs",
+    tier: "gold",
+    description: "Penetration testing & red teaming services",
+    website: "silver",
+  },
   // {
   //   id: "4",
   //   name: "SecureNet Solutions",
