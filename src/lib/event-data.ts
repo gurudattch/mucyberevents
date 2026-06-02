@@ -46,7 +46,7 @@ export interface TimelineDay {
 export const timeline: TimelineDay[] = [
   {
     day: 1,
-    date: "July 14",
+    date: "Oct 14",
     title: "Inauguration Day",
     description: "Grand opening ceremony with chief guest address and keynote session",
     events: [
@@ -60,7 +60,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 2,
-    date: "July 15",
+    date: "Oct 15",
     title: "Ethical Hacking Workshop",
     description: "Hands-on workshop covering penetration testing and ethical hacking methodologies",
     events: [
@@ -73,7 +73,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 3,
-    date: "July 16",
+    date: "Oct 16",
     title: "Web Application Security",
     description: "Deep dive into web vulnerabilities, OWASP Top 10, and secure coding practices",
     events: [
@@ -86,7 +86,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 4,
-    date: "July 17",
+    date: "Oct 17",
     title: "Digital Forensics & Incident Response",
     description: "Learn forensic investigation techniques and incident handling procedures",
     events: [
@@ -99,7 +99,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 5,
-    date: "July 18",
+    date: "Oct 18",
     title: "CTF Competition Day",
     description: "The ultimate Capture The Flag challenge — test your hacking skills!",
     events: [
@@ -113,7 +113,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 6,
-    date: "July 19",
+    date: "Oct 19",
     title: "Expert Talks & Panel Discussion",
     description: "Industry experts share insights on cybersecurity careers, threats, and innovations",
     events: [
@@ -128,7 +128,7 @@ export const timeline: TimelineDay[] = [
   },
   {
     day: 7,
-    date: "July 20",
+    date: "Oct 20",
     title: "Valedictory Ceremony",
     description: "Grand closing ceremony with prize distribution and closing remarks",
     events: [
@@ -162,7 +162,7 @@ export const events: EventItem[] = [
     description: "Grand opening with lamp lighting, chief guest address, and keynote session on the future of cybersecurity.",
     icon: "Flame",
     category: "Ceremony",
-    date: "July 14",
+    date: "Oct 14",
     time: "10:00 AM",
     venue: "Main Auditorium",
   },
@@ -172,7 +172,7 @@ export const events: EventItem[] = [
     description: "Hands-on workshop covering penetration testing, vulnerability assessment, and ethical hacking methodologies using industry tools.",
     icon: "Shield",
     category: "Workshop",
-    date: "July 15",
+    date: "Oct 15",
     time: "09:00 AM",
     venue: "CS Lab 1",
   },
@@ -182,7 +182,7 @@ export const events: EventItem[] = [
     description: "Deep dive into OWASP Top 10 vulnerabilities, SQL injection, XSS, CSRF, and secure coding practices with live demos.",
     icon: "Globe",
     category: "Workshop",
-    date: "July 16",
+    date: "Oct 16",
     time: "09:00 AM",
     venue: "CS Lab 2",
   },
@@ -192,7 +192,7 @@ export const events: EventItem[] = [
     description: "Learn forensic investigation techniques including disk forensics, memory analysis, and network forensics with real-world case studies.",
     icon: "Search",
     category: "Workshop",
-    date: "July 17",
+    date: "Oct 17",
     time: "09:00 AM",
     venue: "CS Lab 3",
   },
@@ -202,7 +202,7 @@ export const events: EventItem[] = [
     description: "Jeopardy-style CTF competition with challenges in Web Exploitation, Cryptography, Reverse Engineering, Forensics, OSINT, and Misc categories.",
     icon: "Flag",
     category: "Competition",
-    date: "July 18",
+    date: "Oct 18",
     time: "09:30 AM",
     venue: "CS Labs & Online",
   },
@@ -212,7 +212,7 @@ export const events: EventItem[] = [
     description: "Industry experts share insights on AI in cybersecurity, cloud security, threat intelligence, and career opportunities in the field.",
     icon: "Mic",
     category: "Talk",
-    date: "July 19",
+    date: "Oct 19",
     time: "09:00 AM",
     venue: "Seminar Hall",
   },
@@ -222,7 +222,7 @@ export const events: EventItem[] = [
     description: "Interactive panel discussions on career paths in cybersecurity and diversity in the tech industry with Q&A sessions.",
     icon: "MessageSquare",
     category: "Panel",
-    date: "July 19",
+    date: "Oct 19",
     time: "12:00 PM",
     venue: "Seminar Hall",
   },
@@ -232,7 +232,7 @@ export const events: EventItem[] = [
     description: "Test your cybersecurity knowledge in an exciting quiz competition covering topics from networking to cryptography and current threats.",
     icon: "Brain",
     category: "Competition",
-    date: "July 19",
+    date: "Oct 19",
     time: "05:00 PM",
     venue: "Auditorium",
   },
@@ -242,7 +242,7 @@ export const events: EventItem[] = [
     description: "Grand closing ceremony with prize distribution, awards, closing keynote, and networking session to wrap up the week.",
     icon: "Award",
     category: "Ceremony",
-    date: "July 20",
+    date: "Oct 20",
     time: "11:00 AM",
     venue: "Main Auditorium",
   },
@@ -254,7 +254,7 @@ export const ctfInfo = {
   format: "Jeopardy-Style CTF",
   teamSize: "1-4 Members",
   duration: "8 Hours",
-  date: "July 18, 2026",
+  date: "Oct 18, 2026",
   time: "9:30 AM - 5:30 PM",
   prizePool: "₹25,000+",
   categories: [
