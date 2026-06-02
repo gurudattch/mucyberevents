@@ -64,8 +64,13 @@ export function Navbar() {
             className="flex items-center gap-2 group"
           >
             <div className="relative">
-              <Shield className="w-8 h-8 text-[#00ff41] group-hover:drop-shadow-[0_0_8px_rgba(0,255,65,0.5)] transition-all" />
-              <div className="absolute inset-0 w-8 h-8 rounded-full border border-[#00ff41]/20 group-hover:border-[#00ff41]/40 transition-colors" />
+               <img
+          src="https://meu.edu.in/wp-content/uploads/2026/02/cropped-MU-logo-final-white.png"
+          alt="Cyber Security Week 2026 Background"
+          className="w-9 h-9 sm:w-19 sm:h-19"
+        />
+              {/* <Shield className="w-8 h-8 text-[#00ff41] group-hover:drop-shadow-[0_0_8px_rgba(0,255,65,0.5)] transition-all" />
+              <div className="absolute inset-0 w-8 h-8 rounded-full border border-[#00ff41]/20 group-hover:border-[#00ff41]/40 transition-colors" /> */}
             </div>
             <div className="hidden sm:flex flex-col">
               <span className="text-lg font-bold text-[#00ff41] font-mono glow-green-text leading-tight">
