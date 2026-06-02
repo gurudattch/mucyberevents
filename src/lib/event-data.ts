@@ -305,7 +305,7 @@ export const events: EventItem[] = [
     "date": "Day 3",
     "time": "05:30 PM",
     "venue": "Main Auditorium"
-  }
+  },
 ];
 
 export const ctfInfo = {
