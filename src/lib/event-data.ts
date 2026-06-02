@@ -543,7 +543,7 @@ export const sponsors: Sponsor[] = [
 ];
 
 export const partners = [
-  // { id: "1", name: "Mandsaur University", type: "Host Institution" },
+  { id: "1", name: "Mandsaur University", type: "Host Institution" }
   // { id: "2", name: "Department of Computer Science", type: "Academic Partner" },
   // { id: "3", name: "Department of IT", type: "Academic Partner" },
   // { id: "4", name: "MP Cyber Cell", type: "Government Partner" },
