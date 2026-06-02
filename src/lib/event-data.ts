@@ -479,16 +479,16 @@ export const sponsors: Sponsor[] = [
   },
   {
     id: "2",
-    name: "CyberShield Corp",
+    name: "To Be Announced",
     tier: "platinum",
-    description: "Enterprise security & compliance",
+    description: "",
     website: "#",
   },
   {
     id: "3",
-    name: "HackDefend Labs",
+    name: "To Be Announced",
     tier: "gold",
-    description: "Penetration testing & red teaming services",
+    description: "",
     website: "silver",
   }
   // {
