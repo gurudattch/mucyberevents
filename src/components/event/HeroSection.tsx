@@ -68,7 +68,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://meu.edu.in/wp-content/uploads/2026/02/cropped-MU-logo-final-white.png"
+          src="/images/hero-banner.png"
           alt="Cyber Security Week 2026 Background"
           className="w-full h-full object-cover opacity-30"
         />
