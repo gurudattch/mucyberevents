@@ -25,11 +25,11 @@ const features = [
     title: "Career Guidance",
     description: "Panel discussions and fireside chats on career paths, certifications, and opportunities in cybersecurity.",
   },
-  {
-    icon: BookOpen,
-    title: "Knowledge Sharing",
-    description: "Open forums, write-up presentations, and community networking with fellow cybersecurity enthusiasts.",
-  },
+{
+  icon: Venus,
+  title: "Women in Cybersecurity",
+  description: "Empowering women to lead, innovate, and thrive in the cybersecurity industry through learning, mentorship, and community.",
+},
   // {
   //   icon: Cpu,
   //   title: "Latest Technologies",
