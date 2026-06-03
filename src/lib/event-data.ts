@@ -156,19 +156,19 @@ export interface EventItem {
 }
 
 export const events: EventItem[] = [
-  {
-    "id": "day1-inauguration",
-    "title": "Inauguration Ceremony",
-    "description": "Welcome address, lamp lighting ceremony, chief guest introduction, and event overview.",
-    "icon": "Flame",
-    "category": "Ceremony",
-    "date": "Day 1",
-    "time": "10:00 AM",
-    "venue": "Main Auditorium"
-  },
+  // {
+  //   "id": "day1-inauguration",
+  //   "title": "",
+  //   "description": "Welcome address, lamp lighting ceremony, chief guest introduction, and event overview.",
+  //   "icon": "Flame",
+  //   "category": "Ceremony",
+  //   "date": "Day 1",
+  //   "time": "10:00 AM",
+  //   "venue": "Main Auditorium"
+  // },
   {
     "id": "day1-cyber-hygiene",
-    "title": "Cyber Hygiene Awareness Session",
+    "title": "Inauguration & Cyber Hygiene Awareness Session",
     "description": "Learn safe internet practices, password security, phishing awareness, social engineering prevention, and digital safety fundamentals.",
     "icon": "Shield",
     "category": "Talk",
