@@ -216,16 +216,16 @@ export const events: EventItem[] = [
     "time": "09:00 AM",
     "venue": "Seminar Hall"
   },
-  {
-    "id": "day2-intermediate",
-    "title": "Intermediate Cybersecurity Session",
-    "description": "Explore vulnerability assessment, threat intelligence, secure coding, and practical cybersecurity concepts.",
-    "icon": "ShieldCheck",
-    "category": "Talk",
-    "date": "Day 2",
-    "time": "11:00 AM",
-    "venue": "Seminar Hall"
-  },
+  // {
+  //   "id": "day2-intermediate",
+  //   "title": "Intermediate Cybersecurity Session",
+  //   "description": "Explore vulnerability assessment, threat intelligence, secure coding, and practical cybersecurity concepts.",
+  //   "icon": "ShieldCheck",
+  //   "category": "Talk",
+  //   "date": "Day 2",
+  //   "time": "11:00 AM",
+  //   "venue": "Seminar Hall"
+  // },
   {
     "id": "day2-qa",
     "title": "Technical Q&A Session",
@@ -233,7 +233,7 @@ export const events: EventItem[] = [
     "icon": "MessageSquare",
     "category": "Q&A",
     "date": "Day 2",
-    "time": "01:30 PM",
+    "time": "11:00 PM",
     "venue": "Seminar Hall"
   },
   {
@@ -243,7 +243,7 @@ export const events: EventItem[] = [
     "icon": "Flag",
     "category": "Competition",
     "date": "Day 2",
-    "time": "02:00 PM",
+    "time": "12:00 PM",
     "venue": "Computer Labs"
   },
   {
@@ -253,7 +253,7 @@ export const events: EventItem[] = [
     "icon": "Trophy",
     "category": "Ceremony",
     "date": "Day 2",
-    "time": "06:00 PM",
+    "time": "03:30 PM",
     "venue": "Main Auditorium"
   },
   {
