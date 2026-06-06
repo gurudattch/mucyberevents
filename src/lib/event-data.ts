@@ -527,6 +527,7 @@ export interface Sponsor {
   tier: "platinum" | "gold" | "silver" | "community";
   description: string;
   website?: string;
+  logo?: string;
 }
 
 export const sponsors: Sponsor[] = [
